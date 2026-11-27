@@ -1,0 +1,30 @@
+{
+  "short_name": "Latauskaveri",
+  "name": "Latauskaveri",
+  "description": "Edistynyt sähköauton latauslaskuri, latauskäyräsimulaattori ja sähkökustannusten optimoija (mm. Hyundai IONIQ 5). Sisältää Suomen Pörssisähkön hintaerittelyn ja älykkään aloitusaikasuosituksen.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/pwa-icon.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#070A13",
+  "theme_color": "#070A13",
+  "display": "standalone",
+  "orientation": "portrait"
+}

@@ -1,0 +1,20 @@
+services:
+  latauskaveri:
+    build: .
+    container_name: latauskaveri
+    restart: unless-stopped
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+    mem_limit: 256m
+    networks:
+      - web_net
+
+networks:
+  web_net:
+    external: true
